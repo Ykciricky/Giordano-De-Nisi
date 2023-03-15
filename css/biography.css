@@ -1,0 +1,30 @@
+main section {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: black;
+}
+
+main section div {
+    width: 80vw;
+    background: black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main section div h1 {
+    color: white;
+    font-size: 5vh;
+    transition: 0.5s ease;
+}
+
+main section div h2 {
+    color: white;
+    font-size: 2.5vh;
+    padding-top: 5vh;
+    transition: 0.5s ease;
+}

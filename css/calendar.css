@@ -1,0 +1,12 @@
+main section {
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-y: hidden;
+}
+
+main section iframe {
+    height: 75vh;
+    width: 80vw;
+}
+  

@@ -1,0 +1,44 @@
+main section {
+    height: 200vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+main section div {
+    height: 190vh;
+    width: 80vw;
+    /* background-color: green; */
+}
+
+h1 {
+    color: white;
+    font-size: 8vh;
+    padding-bottom: 2.5vh;
+    padding-left: 2vw;
+}
+
+h2 {
+    color: white;
+    font-size: 5vh;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    padding-left: 3vw;
+}
+
+h3 {
+    color: white;
+    font-size: 3vh;
+    padding-bottom: 1.2vh;
+    padding-left: 5vw;
+}
+
+h4 {
+    color: white;
+    font-size: 2vh;
+    padding-bottom: 0.625vh;
+    padding-left: 10vw;
+}
+

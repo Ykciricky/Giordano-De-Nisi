@@ -1,0 +1,150 @@
+/* Setting Fonts */
+    @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+    @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+/* MONTSERRAT and LATO and ROBOTO and Source Sans Pro are good fonts for Sans Serif, Modern, Minimalistic */
+/* PLAYFAIR DISPLAY are good fonts for Serif, Elegance, Timelessness */
+
+    html {
+        font-family: "Source Sans Pro";
+        overflow-x: hidden;
+    }
+
+/* Scrollbar */
+    ::-webkit-scrollbar {
+        width: 0.5vw;
+        background: black;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: black;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: orange;
+    }
+
+/* Header */
+    header {
+        box-sizing: border-box;
+        height: 15vh;
+        background: black;
+        /* background: linear-gradient(to bottom right, black 50%, white 200%); */
+        /* Set rules for flexbox */
+        display: flex;
+        /* Stop header from moving */
+        position: sticky;
+        top: 0;
+    }
+
+/* Header Navigation */
+    header nav {
+        width: 100vw;
+        display: flex;
+    }
+
+    header nav ul {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5vw;
+    }
+
+    header nav ul li {
+        width: 5vw;
+        text-align: center;
+    }
+
+    header nav ul li:hover {
+        width: 7.5vw;
+    }
+
+    header nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 2vh;
+        transition: all 0.5s ease;
+    }
+
+    header nav ul li a:hover {
+        color: orange;
+        font-size: 3vh;
+    }
+
+    header nav ul li a img {
+        width: 50px; 
+        height: 50px;
+        transition: 0.5s ease;
+    }
+
+    header nav ul li a img:hover {
+        width: 75px; 
+        height: 75px;
+    }
+
+/* Main */
+    main {
+        background: black;
+        /* background: linear-gradient(to top right, black 50%, white 200%); */
+    }
+
+/* Footer */
+    footer {
+        box-sizing: border-box;
+        height: 10vh;
+        background: black;
+        display: flex;
+        /* background: linear-gradient(to top left, black 50%, white 200%); */
+    }
+
+/* Footer Navigation */
+    footer nav {
+        width: 100vw;
+        display: flex;
+    }
+
+    footer nav ul {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5vw;
+    }
+
+    footer nav ul li {
+        text-align: center;
+        font-size: 3vh;
+        transition: 0.5s ease;
+    }
+
+    footer nav ul li:hover {
+        font-size: 4vh;
+    }
+
+    footer nav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    footer nav ul li a:hover {
+        color: orange;
+    }
+
+/* Footer Icons */
+    footer nav ul li a[href*="instagram.com"]:before {
+        font-family: "Font Awesome 5 Brands"; 
+        content: "\f16d";
+    }
+
+    footer nav ul li a[href*="soundcloud.com"]:before {
+        font-family: "Font Awesome 5 Brands"; 
+        content: "\f1be";
+    }
+
+    footer nav ul li a[href*="youtube.com"]:before {
+        font-family: "Font Awesome 5 Brands"; 
+        content: "\f167";
+    }
+
